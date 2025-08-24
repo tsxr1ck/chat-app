@@ -1,0 +1,19 @@
+# Node
+node_modules/
+
+# Build
+client/dist/
+
+# Env files
+client/.env*
+server/.env*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+pnpm-lock.yaml
