@@ -27,7 +27,7 @@ A modern, full stack chat application built with React (Vite, TypeScript), Socke
 
 ### 1. Clone the Repo
 ```sh
-git clone <your-repo-url>
+git clone https://github.com/tsxr1ck/chat-app.git
 cd chat-app
 ```
 
@@ -94,7 +94,8 @@ Serve the `client/dist` folder with nginx, serve, or your preferred static serve
 
 ## Screenshots
 
-![Chat UI Screenshot](./docs/screenshot.png)
+![Chat UI Screenshot - Login](./assets/localhost_5173_.png)
+![Chat UI Screenshot - Home](./assets/localhost_5173_home.png)
 
 ---
 
