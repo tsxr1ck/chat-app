@@ -1,3 +1,5 @@
+const authRoutes = require('./routes/auth');
+
 const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');
@@ -17,6 +19,7 @@ const dbConfig = {
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use('/api/auth', authRoutes);
 const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: "*", methods: ["GET", "POST"] } });
 const pool = new Pool(dbConfig);
